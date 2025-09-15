@@ -12,6 +12,9 @@
 .box{
     display: flex;
 }
+a{
+    text-decoration: none;
+}
 /* ========================= 
       common css 
 ========================= */
@@ -62,7 +65,7 @@ nav .box{
        banner part start
 =========================== */
 .banner{
-    background-image: url(./images/banner1.png);
+    background-image: url(../images/banner1.png);
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -158,7 +161,7 @@ height: 72px;
 .service .right_image{
     width: 100%;
     height: 410px;
-    background-image: url(./images/serviceimg1.png);
+    background-image: url(../images/serviceimg1.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -166,7 +169,7 @@ height: 72px;
 .service .right_image2{
     width: 100%;
     height: 410px;
-    background-image: url(./images/serviceimg2.png);
+    background-image: url(../images/serviceimg2.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -174,7 +177,7 @@ height: 72px;
 .service .right_image3{
     width: 100%;
     height: 410px;
-    background-image: url(./images/serviceimg3.png);
+    background-image: url(../images/serviceimg3.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -240,7 +243,7 @@ flex-wrap: wrap;
 .about .image_part{
     width: 100%;
     height: 360px;
-    background-image: url(./images/aboutimg.png);
+    background-image: url(../images/aboutimg.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -289,4 +292,255 @@ transition: .3s;
 }
 /* =======================
        about part end
+=========================== */
+
+/* =======================
+       promotion part start
+=========================== */
+.promotion{
+    padding-top: 117px;
+    padding-bottom: 116px;
+}
+.promotion .container .box{
+    justify-content: space-between;
+}
+/* =======================
+       promotion part end
+=========================== */
+
+/* =======================
+       card part start
+=========================== */
+.card_part{
+    padding-top: 110px; 
+    padding-bottom: 162px ;
+    background:#F0F0F0;
+}
+.card_part .box{
+justify-content: space-between;
+}
+.card_part .card{
+width: 340px;
+height: 400px;
+position: relative;  
+overflow: hidden;
+}
+.card_part .card .over{
+width: 100%;
+height: 100%;
+background: #00000099;
+position: absolute;
+top: 100%;
+left: 0;
+padding: 75px 46px;
+box-sizing: border-box;
+transition: 0.3s;
+
+}
+.card_part .card:hover .over{
+    top: 0;
+}
+.card_part .over p{
+font-family: "Poppins", sans-serif;
+font-size: 24px;
+font-weight: 700;
+color: #ffffff;
+width: 249px;
+height: 180px;
+padding-bottom: 52px;
+}
+.card_part .over a{
+font-family: "Poppins", sans-serif;
+font-size: 12px;
+font-weight: 600;
+color: #ffffff;
+width: 77.44444274902344px;
+height: 18.22222137451172px;
+padding: 10px 22px;
+background: #ffffff6d;
+}
+.more_button{
+padding-top: 28px;
+text-align: right;
+font-family: "Poppins", sans-serif;
+font-size: 16px;
+font-weight: 700;
+color: #000000;
+}
+.more_button i{
+    width: 10.08728313446045px;
+    height: 15px;
+    padding-left: 5px;
+}
+/* =======================
+       card part end
+=========================== */
+
+/* =======================
+       map part start
+=========================== */
+.map img{
+    width: 100%;
+    height: 450px;
+    margin: 0 auto;
+}
+
+/* =======================
+       map part end
+=========================== */
+
+/* =======================
+       contact part start
+=========================== */
+.contact{
+    background: red;
+    padding: 45px 0;
+    
+}
+.contact h1{
+font-family: "Poppins", sans-serif;
+font-size: 36px;
+font-weight: 700;
+color: #ffffff;
+width: 959px;
+height: 54px;
+}
+.contact button{
+font-family: "Poppins", sans-serif;
+font-size: 16px;
+font-weight: 600;
+color: rgb(255, 255, 255);
+padding: 14px 30px;
+border: 2px solid white;
+background: red;
+}
+/* =======================
+      contact part end
+=========================== */
+
+/* =======================
+      footer part end
+=========================== */
+.footer{
+background: #1F1F1F;
+height: 450px;
+padding-top: 150px;
+padding-bottom: 170px;
+}
+.footer .footer1 img{
+padding-bottom: 33px;
+}
+.footer .footer1{
+width: 41%;
+}
+.footer1 ul{
+display: flex;
+flex-direction: column;
+row-gap: 15px;
+}
+.footer2 ul{
+display: flex;
+flex-direction: column;
+row-gap: 15px;
+}
+.footer3 ul{
+display: flex;
+flex-direction: column;
+row-gap: 15px;
+}
+.footer4 ul{
+display: flex;
+flex-direction: column;
+row-gap: 15px;
+}
+.footer ul{
+list-style: none;
+color: #FFFFFF;
+}
+.footer .footer2{
+width: 16%;
+}
+.footer .footer3{
+width: 16%;
+}
+.footer .footer4{
+width: 27%;
+}
+.footer .icon ul{
+display: flex;
+color: red;
+font-size: 30px;
+column-gap: 12px;
+padding-top: 34px;
+}
+.footer1 ul li{
+font-family: "Poppins", sans-serif;
+font-size: 14px;
+font-weight: 400;
+color: #ffffff;
+height: 21px;
+}
+.footer2 ul li{
+font-family: "Poppins", sans-serif;
+font-size: 14px;
+font-weight: 400;
+color: #ffffff;
+height: 21px;
+}
+.footer3 ul li{
+font-family: "Poppins", sans-serif;
+font-size: 14px;
+font-weight: 400;
+color: #ffffff;
+height: 21px;
+}
+.footer2 ul .head{
+font-family: "Poppins", sans-serif;
+font-size: 16px;
+font-weight: 700;
+color: #ffffff;
+height: 24px;
+padding-bottom: 6px;
+padding-top: 30px;
+}
+.footer3 ul .head2{
+font-family: "Poppins", sans-serif;
+font-size: 16px;
+font-weight: 700;
+color: #ffffff;
+height: 24px;
+padding-bottom: 6px;
+padding-top: 30px;
+}
+.footer4 ul .head3{
+font-family: "Poppins", sans-serif;
+font-size: 16px;
+font-weight: 700;
+color: #ffffff;
+height: 24px;
+padding-bottom: 6px;
+padding-top: 30px;
+}
+/* =======================
+      footer part end
+=========================== */
+/* =======================
+      copyright part start
+=========================== */
+.copyright{
+    width: 100%;
+    background: #282828;
+    
+}
+.copyright p{
+font-family: "Poppins", sans-serif;
+font-size: 16px;
+font-weight: 500;
+color:#6C6C6C;
+width: 509px;
+height: 24px;
+padding: 43px 0;
+}
+/* =======================
+      copyright part end
 =========================== */
